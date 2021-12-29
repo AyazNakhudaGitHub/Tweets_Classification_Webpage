@@ -15,7 +15,23 @@ This web application utilizes a neural network and BERT (Bidirectional Encoder R
 
 The programming language and modules used for this project inlcude: Python, Django, Flask, HTML5 and CSS3.
 
-To run this project one will need to:
+To run this project locally one will need to:
+
+- Download all the files and maintain the directory structure.
+
+- Ensure that you have all the neccessary modules installed.
+
+- Download the machine learning models from the given drive link:
+
+- Place the machine learning models into this directory: 'give the directory route here'
+
+- Get the credentials for access to the Twitter API and input them into the file 'give the directory path here' and show the image of where to put the passwords
+
+- Run the API 
+
+- Type this command to get the wepage running
+
+Future plans to host this web application and the API on the Google Cloud Platform is currently in the works. 
 
 
 
@@ -35,7 +51,7 @@ To run this project one will need to:
 
 
 
-Live Demo:
+While a GIF is included, a video is provided to give a live demo:
 
 https://user-images.githubusercontent.com/63979892/147625800-65953f67-56ff-4e19-ab53-9239f3a48514.mp4
 
