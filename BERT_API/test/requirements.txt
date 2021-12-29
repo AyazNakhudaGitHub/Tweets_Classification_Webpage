@@ -1,9 +1,0 @@
-Flask
-gunicorn
-tensorflow
-tensorflow_hub
-tensorflow-text
-tf-models-official==2.4.0
-numpy
-pandas
-requests
