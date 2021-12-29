@@ -17,10 +17,7 @@ import tensorflow as tf
 import numpy
 import pandas as pd
 import tweepy, json
-from selenium import webdriver
 import contextlib
-import selenium.webdriver as webdriver
-import selenium.webdriver.support.ui as ui
 import requests
 import json
 import tensorflow_text
@@ -30,12 +27,14 @@ from django.conf import settings
 import tempfile
 import tempdir
 
-# python manage.py runserver
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAANFSXAEAAAAAjO7cmKc36feIo1rZ8WvVyDPejCk%3DZP7zBYzb3EYdYhbTUXRr1GGDJa4C0Cdu0XVQlOt1RKsUcMc75C"
-ACCESS_TOKEN = "1230287486804537346-HvtK3mmgBBosjSFQoCxhdxlVp9rDmr"
-ACCESS_SECRET_TOKEN = "A9mRqNBKIfqM4ysj6tHOzK6yenaG0gfDJnFShTl6ctiAx"
-CONSUMER_KEY = "9FVlwpkqjETAWufOv9SEmHsUv"
-CONSUMER_SECRET = "YbwfRMu9f2JzDdfxM1SQUrqxvAwjzbyNsXuPE5yhFvXf0fbjGo"
+# python manage.py runserver --> use this command to run the webpage locally
+
+#enter your credentials for the Twitter API below:
+#BEARER_TOKEN = ""
+#ACCESS_TOKEN = ""
+#ACCESS_SECRET_TOKEN = ""
+#CONSUMER_KEY = ""
+#CONSUMER_SECRET = ""
 
 
 def home(request):
@@ -54,7 +53,7 @@ def get_tweets(request):
 
         api = tweepy.API(auth)
         l = []
-        query= text_box_value +" -is:retweet lang:en &max_results=10"# the - is a negation, we don't want re-tweets. For now we get english tweets
+        query= text_box_value +" -is:retweet lang:en &max_results=10" # The - is a negation, we don't want re-tweets. For now we get english tweets.
         tweets = searchTwitter(query,"tweet.fields=text" ,BEARER_TOKEN)
 
 
@@ -69,7 +68,7 @@ def get_tweets(request):
         tweets = df_tweets["text"].tolist()
         tweets = '\n\n\n\n\n\n\n\n\n'.join(str(x) for x in tweets)
 
-        resp = requests.post("http://localhost:5000/", files={'file': open('data.json')}) # we can also make another request to another API that handles the helpfulness predictions
+        resp = requests.post("http://localhost:5000/", files={'file': open('data.json')}) # We can also make another request to another API that handles the helpfulness predictions.
         print(resp.json())
         final_response = resp.json()
         preds = final_response['predictions']
