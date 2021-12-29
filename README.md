@@ -2,8 +2,8 @@
 
 
 
-![Tweets_gif_2](https://user-images.githubusercontent.com/63979892/147628136-be44c62c-da23-4df7-b37d-c411cefc2bda.gif)
 
+![Tweets_gif_2](https://user-images.githubusercontent.com/63979892/147628203-5e20c9a9-8f8d-4aaa-8615-44fab5040f55.gif)
 
 
 
