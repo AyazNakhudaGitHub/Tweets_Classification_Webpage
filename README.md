@@ -21,7 +21,7 @@ To run this project locally one will need to:
 
 - Ensure that you have all the neccessary modules installed.
 
-- Download the machine learning models from the given drive link:
+- Download the machine learning models from the given drive link: https://drive.google.com/drive/folders/1S1WCRVz2fr8oZd7EysAFK36Lhwab0Eb6?usp=sharing
 
 - Place the machine learning models into this directory: 'give the directory route here'
 
