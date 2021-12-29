@@ -13,7 +13,7 @@ This web application can search through Twitter and extract tweets which relate 
 
 This web application utilizes a neural network and BERT (Bidirectional Encoder Representations for Transformers) to make the classifications of the tweets. The machine learning models are based on the Is Bigger Better? Text Classification using state-of-the-art BERT with limited Compute research paper by: Ayaz Nakhuda, David Ferris and Jastejpal Soora. This paper can be visted using this link: https://github.com/AyazNakhudaGitHub/BERT_Customer_Reviews_Classification/blob/main/Report_Group_24.pdf
 
-The programming language and modules used for this project inlcude: Python, Django, Flask, HTML5 and CSS3.
+This project was mainly made with: Python, Django, Flask, HTML5 and CSS3.
 
 To run this project locally one will need to:
 
@@ -23,30 +23,24 @@ To run this project locally one will need to:
 
 - Download the machine learning models from the given drive link: https://drive.google.com/drive/folders/1S1WCRVz2fr8oZd7EysAFK36Lhwab0Eb6?usp=sharing
 
-- Place the machine learning models into this directory: 'give the directory route here'
+- Place the machine learning models into this directory for the API: BERT_API/test/ml_models 
 
-- Get the credentials for access to the Twitter API and input them into the file 'give the directory path here' and show the image of where to put the passwords
+<img width="524" alt="Screen Shot 2021-12-29 at 6 50 37 PM" src="https://user-images.githubusercontent.com/63979892/147711287-2cc55f94-f336-44e3-a92a-8b0c118af719.png">
 
-- Run the API 
 
-- Type this command to get the wepage running
+- Get the credentials for access to the Twitter API and input them into the file sentiment_BERT_Web_Project/sentiment_BERT_Web_Project/views.py
+
+<img width="334" alt="Screen Shot 2021-12-29 at 6 55 27 PM" src="https://user-images.githubusercontent.com/63979892/147711466-8a9f2bb3-bb69-48b2-b8e9-f1f3893a7683.png">
+
+
+- Run the API as seen in the image below:
+
+<img width="845" alt="Screen Shot 2021-12-29 at 6 53 16 PM" src="https://user-images.githubusercontent.com/63979892/147711401-14098cb2-a557-42fc-9d8c-7ab53d5c874f.png">
+
+
+- Type this command to get the wepage running: python manage.py runserver
 
 Future plans to host this web application and the API on the Google Cloud Platform is currently in the works. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
