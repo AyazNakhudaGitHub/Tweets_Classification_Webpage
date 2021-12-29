@@ -1,8 +1,8 @@
 # Tweets_Classification_Webpage
 
 
-![Dec-28-2021 23-42-51](https://user-images.githubusercontent.com/63979892/147628053-83d73e76-6045-4a21-a51f-7eb7ac603a5f.gif)
 
+![Tweets_gif_2](https://user-images.githubusercontent.com/63979892/147628136-be44c62c-da23-4df7-b37d-c411cefc2bda.gif)
 
 
 
