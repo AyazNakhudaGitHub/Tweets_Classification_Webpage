@@ -1,0 +1,2 @@
+In order to have this API function, please include the machine learning models here. 
+You will be able to download them from the given Google Drive link in the read me file.
