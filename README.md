@@ -39,14 +39,14 @@ To run this project locally one will need to:
 
 
 
-\n\n\n
+<br /><br /><br />
 - Type this command to get the wepage running: python manage.py runserver
 
 Future plans to host this web application and the API on the Google Cloud Platform is currently in the works. 
 
 
 
-\n\n\n
+<br /><br /><br />
 While a GIF is included, a video is provided to give a live demo:
 
 https://user-images.githubusercontent.com/63979892/147625800-65953f67-56ff-4e19-ab53-9239f3a48514.mp4
