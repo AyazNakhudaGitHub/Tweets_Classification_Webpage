@@ -7,7 +7,7 @@
 
 
 
-The goal of this project is to be able to predict what rating a customer would give to a product. This enables businesses to better understand what customers think of their products as social media platforms such a Twitter and Youtube do not have rating systems.
+The goal of this project is to be able to predict what rating customers on social media platforms would give to products. This enables businesses to better understand what customers think of their products as social media platforms such a Twitter and Youtube do not have rating systems.
 
 This web application can search through Twitter and extract tweets which relate to a given keyword and classify the tweets into 5 categories. These categories represent ratings (out of 5) where 1 is bad and 5 is excellent. Ideally, the keywords should be products but, the webpage can also take in just about anything so long as people are talking about it on Twitter.  
 
@@ -19,9 +19,9 @@ To run this project locally one will need to:
 
 - Download all the files and maintain the directory structure.
 
-- Ensure that you have all the neccessary modules installed.
+- Ensure that all neccessary modules are installed.
 
-- Download the machine learning models from the given drive link: https://drive.google.com/drive/folders/1S1WCRVz2fr8oZd7EysAFK36Lhwab0Eb6?usp=sharing
+- Download the machine learning models from this Google drive link: https://drive.google.com/drive/folders/1S1WCRVz2fr8oZd7EysAFK36Lhwab0Eb6?usp=sharing
 
 - Place the machine learning models into this directory for the API: BERT_API/test/ml_models 
 
@@ -36,6 +36,8 @@ To run this project locally one will need to:
 - Run the API as seen in the image below:
 
 <img width="845" alt="Screen Shot 2021-12-29 at 6 53 16 PM" src="https://user-images.githubusercontent.com/63979892/147711401-14098cb2-a557-42fc-9d8c-7ab53d5c874f.png">
+
+
 
 
 - Type this command to get the wepage running: python manage.py runserver
