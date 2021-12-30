@@ -41,7 +41,7 @@ To run this project locally one will need to:
 
 <img width="845" alt="Screen Shot 2021-12-29 at 6 53 16 PM" src="https://user-images.githubusercontent.com/63979892/147711401-14098cb2-a557-42fc-9d8c-7ab53d5c874f.png">
 
-- Type this command to get the wepage running: python manage.py runserver
+- Enter this command to get the wepage running: python manage.py runserver
 -----
 <br />
 
